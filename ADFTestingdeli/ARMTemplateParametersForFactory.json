@@ -1,0 +1,24 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "ADFTestingdeli"
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "demo-databelidemo.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "demo_sql_db"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "prashant64"
+		},
+		"LS_ADSL_properties_typeProperties_url": {
+			"value": "https://demoprashantdeli.dfs.core.windows.net/"
+		}
+	}
+}

@@ -1,0 +1,6 @@
+{
+	"table_name": {
+		"type": "string",
+		"value": "products"
+	}
+}
