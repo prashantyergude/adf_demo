@@ -5,8 +5,8 @@
 		"factoryName": {
 			"value": "ADFTestingdeli"
 		},
-		"AzureSqlDatabase1_password": {
-			"value": ""
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://demodatabeli64.vault.azure.net/"
 		},
 		"AzureSqlDatabase1_properties_typeProperties_server": {
 			"value": "demo-databelidemo.database.windows.net"
