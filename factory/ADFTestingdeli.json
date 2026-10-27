@@ -1,0 +1,21 @@
+{
+	"name": "ADFTestingdeli",
+	"properties": {
+		"globalParameters": {
+			"table_name": {
+				"type": "string",
+				"value": "products"
+			}
+		},
+		"trustModeClaimForMi": {
+			"value": "Disabled",
+			"editable": true
+		}
+	},
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "5e8993b8-d2c0-4ac0-92eb-5b660d36fe80",
+		"tenantId": "7a5d168a-b6a8-4d09-8ebc-429dcdec0c35"
+	}
+}

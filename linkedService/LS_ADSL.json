@@ -1,0 +1,11 @@
+{
+	"name": "LS_ADSL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureBlobFS",
+		"typeProperties": {
+			"url": "https://demoprashantdeli.dfs.core.windows.net/"
+		}
+	}
+}

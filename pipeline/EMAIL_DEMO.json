@@ -1,0 +1,39 @@
+{
+	"name": "EMAIL_DEMO",
+	"properties": {
+		"activities": [
+			{
+				"name": "Web1",
+				"type": "WebActivity",
+				"dependsOn": [],
+				"policy": {
+					"timeout": "0.12:00:00",
+					"retry": 0,
+					"retryIntervalInSeconds": 30,
+					"secureOutput": false,
+					"secureInput": false
+				},
+				"userProperties": [],
+				"typeProperties": {
+					"method": "POST",
+					"headers": {
+						"Content-Type": "application/json"
+					},
+					"url": "https://prod-02.northcentralus.logic.azure.com:443/workflows/93d4000b65264a6688f6a9a97d0a613a/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=UUG8LU42FrWr6NcdnfA3KthGpQBjyIB6sv-4oYgWRLs",
+					"body": {
+						"value": "{\"table_name\":\"@{pipeline().parameters.table_name}\"}\n",
+						"type": "Expression"
+					}
+				}
+			}
+		],
+		"parameters": {
+			"table_name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"lastPublishTime": "2026-10-24T06:18:50Z"
+	},
+	"type": "Microsoft.DataFactory/factories/pipelines"
+}
